@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="m4ckDev — Cybersecurity Engineering">
+  <img src="./assets/profile-hero.svg" width="100%" alt="m4ckDev — Cybersecurity & Linux Engineering">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <strong>Security engineering across Linux, Android, iOS, networking, automation, OSINT, and self-hosted infrastructure.</strong>
+  <strong>Cybersecurity Engineer · Linux Engineer · Android/iOS Developer · Automation Builder</strong>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 ~~~mermaid
 flowchart TB
-    M["m4ckDev<br/>Security Engineering"]
+    M["m4ckDev<br/>Cybersecurity + Linux Engineering"]
 
     M --> SEC["CYBERSECURITY"]
     M --> DEV["SOFTWARE"]
@@ -192,7 +192,7 @@ Android-focused tooling and research for controlled labs, owned devices, and aut
 
 ~~~text
 [01] Cybersecurity Engineering
-[02] Linux / Networking / VPN
+[02] Linux Engineering / Networking / VPN
 [03] Android Kernel Development
 [04] Kali NetHunter
 [05] Wireless Security Research
