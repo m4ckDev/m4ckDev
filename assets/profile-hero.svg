@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">m4ckDev — Cybersecurity Engineering</title>
+  <desc id="desc">A dark red and black cyber-themed profile banner for m4ckDev.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090d"/>
+      <stop offset="0.55" stop-color="#10131a"/>
+      <stop offset="1" stop-color="#050608"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="74%" cy="48%" r="55%">
+      <stop offset="0" stop-color="#ff304f" stop-opacity=".24"/>
+      <stop offset=".5" stop-color="#b10f2e" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff304f"/>
+      <stop offset="1" stop-color="#ff6b7f"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#glow)"/>
+
+  <g opacity=".34">
+    <circle cx="910" cy="82" r="120" fill="#c9183c" filter="url(#soft)"/>
+    <circle cx="1085" cy="270" r="92" fill="#8f0c28" filter="url(#soft)"/>
+  </g>
+
+  <g fill="none" stroke="#ff304f" stroke-opacity=".32">
+    <path d="M777 87 L894 128 L1004 82 L1092 151 L1036 254 L917 299 L806 236 Z"/>
+    <path d="M894 128 L917 299 M1004 82 L1036 254 M777 87 L1036 254 M1092 151 L806 236"/>
+  </g>
+  <g fill="#ff304f">
+    <circle cx="777" cy="87" r="5"/>
+    <circle cx="894" cy="128" r="7"/>
+    <circle cx="1004" cy="82" r="5"/>
+    <circle cx="1092" cy="151" r="6"/>
+    <circle cx="1036" cy="254" r="7"/>
+    <circle cx="917" cy="299" r="6"/>
+    <circle cx="806" cy="236" r="5"/>
+  </g>
+
+  <rect x="66" y="62" width="5" height="142" rx="2.5" fill="url(#accent)"/>
+  <text x="96" y="117" fill="#f6f7fb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="60" font-weight="800" letter-spacing="2">m4ckDev</text>
+  <text x="99" y="157" fill="#ff526d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="3">BUILD // SECURE // SHIP</text>
+
+  <text x="98" y="210" fill="#c8ccd5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Cybersecurity engineering · Linux · Android · iOS · Automation</text>
+  <text x="98" y="246" fill="#8f96a3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Practical tooling. Reproducible research. Systems built to be understood.</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">
+    <rect x="98" y="294" width="154" height="34" rx="17" fill="#141820" stroke="#303640"/>
+    <text x="118" y="316" fill="#dfe3ea">CYBERSECURITY</text>
+    <rect x="264" y="294" width="102" height="34" rx="17" fill="#141820" stroke="#303640"/>
+    <text x="286" y="316" fill="#dfe3ea">LINUX</text>
+    <rect x="378" y="294" width="118" height="34" rx="17" fill="#141820" stroke="#303640"/>
+    <text x="400" y="316" fill="#dfe3ea">ANDROID</text>
+    <rect x="508" y="294" width="92" height="34" rx="17" fill="#141820" stroke="#303640"/>
+    <text x="531" y="316" fill="#dfe3ea">iOS</text>
+    <rect x="612" y="294" width="136" height="34" rx="17" fill="#141820" stroke="#303640"/>
+    <text x="634" y="316" fill="#dfe3ea">AUTOMATION</text>
+  </g>
+
+  <g opacity=".75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text x="850" y="337" fill="#757d8a">~/systems/security/build</text>
+    <text x="850" y="359" fill="#ff526d">$ status: active</text>
+  </g>
+</svg>
