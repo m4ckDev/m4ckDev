@@ -49,6 +49,7 @@ flowchart TB
     INFRA --> NET["Linux · Networking · VPN"]
     INFRA --> AUTO["Python · Automation · APIs"]
     INFRA --> SELF["Self-Hosted Systems"]
+    INFRA --> OMA["Omarchy<br/>Linux Workstation · CLI · Dev Environment"]
 
     classDef root fill:#161a22,stroke:#ff304f,color:#ffffff,stroke-width:3px;
     classDef major fill:#11151c,stroke:#ff526d,color:#ffffff,stroke-width:2px;
@@ -56,7 +57,7 @@ flowchart TB
 
     class M root;
     class SEC,DEV,INFRA major;
-    class CDB,PIX,PAR,AND,IOS,CS,NL,LL,NET,AUTO,SELF node;
+    class CDB,PIX,PAR,AND,IOS,CS,NL,LL,NET,AUTO,SELF,OMA node;
 ~~~
 
 <p align="center">
@@ -114,6 +115,19 @@ Android-focused tooling and research for controlled labs, owned devices, and aut
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🖥️ [Omarchy](https://github.com/omacom/omarchy)
+
+**Primary Linux engineering + command-center environment**
+
+Omarchy is part of the daily Linux workflow: terminal-first development, system engineering, security tooling, CLI/TUI workflows, automation, and the workstation layer used to build and operate the broader m4ckDev environment.
+
+<code>linux-engineering</code> <code>omarchy</code> <code>terminal</code> <code>cli</code> <code>automation</code> <code>workstation</code>
+
+</td>
+</tr>
 </table>
 
 ## APPLICATIONS
@@ -143,6 +157,7 @@ Android-focused tooling and research for controlled labs, owned devices, and aut
 
 <p align="center">
   <img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white" alt="Linux">
+  <img src="https://img.shields.io/badge/Omarchy-111111?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="Omarchy">
   <img src="https://img.shields.io/badge/Android-111111?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Android">
   <img src="https://img.shields.io/badge/Kali_Linux-111111?style=for-the-badge&logo=kalilinux&logoColor=557C94" alt="Kali Linux">
   <img src="https://img.shields.io/badge/Swift-111111?style=for-the-badge&logo=swift&logoColor=F05138" alt="Swift">
@@ -192,7 +207,7 @@ Android-focused tooling and research for controlled labs, owned devices, and aut
 
 ~~~text
 [01] Cybersecurity Engineering
-[02] Linux Engineering / Networking / VPN
+[02] Linux Engineering / Omarchy / Networking / VPN
 [03] Android Kernel Development
 [04] Kali NetHunter
 [05] Wireless Security Research
