@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-  <title id="title">m4ckDev — Cybersecurity Engineering</title>
+  <title id="title">m4ckDev — Cybersecurity & Linux Engineering</title>
   <desc id="desc">A dark red and black cyber-themed profile banner for m4ckDev.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -51,7 +51,7 @@
   <text x="96" y="117" fill="#f6f7fb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="60" font-weight="800" letter-spacing="2">m4ckDev</text>
   <text x="99" y="157" fill="#ff526d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="3">BUILD // SECURE // SHIP</text>
 
-  <text x="98" y="210" fill="#c8ccd5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Cybersecurity engineering · Linux · Android · iOS · Automation</text>
+  <text x="98" y="210" fill="#c8ccd5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Cybersecurity Engineer · Linux Engineer · Android · iOS · Automation</text>
   <text x="98" y="246" fill="#8f96a3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Practical tooling. Reproducible research. Systems built to be understood.</text>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">
